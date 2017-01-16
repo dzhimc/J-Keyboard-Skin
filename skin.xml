@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin version="1.0" name="J Keyboard">
+  <!-- Define the keyboard background -->
+  <background>
+    <!-- Define a color gradient, but you can use an image instead, like this:
+      <image>keyboard_background.9.png</image> 
+    -->
+    <color-top>#FF1A1A1A</color-top>
+    <color-bottom>#FF1A1A1A</color-bottom>
+  </background>
+  <!-- Define the background of normal keys -->
+  <key-background>
+    <!-- Normal (not pressed) state -->
+   <normal>android_btn_keyboard_key_normal.9.png</normal>
+    <!-- Pressed state -->
+    <pressed>android_btn_keyboard_key_pressed.9.png</pressed>
+  </key-background>
+  <!-- Define the background of modifier keys (shift, delete, etc.) -->
+  <mod-key-background>
+    <!-- Normal (not pressed) state -->
+  	<normal>android_btn_keyboard_key_normal.9.png</normal>
+    <!-- Pressed state -->
+    <pressed>android_btn_keyboard_key_pressed.9.png</pressed>
+    <!-- Normal state for unchecked modifier keys (Shift and Alt) -->
+  	<normal-off>android_btn_keyboard_key_normal_off.9.png</normal-off>
+    <!-- Pressed state for unchecked modifier keys -->
+    <pressed-off>android_btn_keyboard_key_pressed_off.9.png</pressed-off>
+    <!-- Normal state for checked modifier keys -->
+  	<normal-on>android_btn_keyboard_key_normal_on.9.png</normal-on>
+    <!-- Pressed state for checked modifier keys -->
+  	<pressed-on>android_btn_keyboard_key_pressed_on.9.png</pressed-on>
+  </mod-key-background>
+  <!-- Define the icon for special keys -->
+  <symbols>
+  	<delete>android_sym_keyboard_delete.png</delete>
+  	<return>android_sym_keyboard_return.png</return>
+  	<search>android_sym_keyboard_search.png</search>
+  	<shift>android_sym_keyboard_shift.png</shift>
+   	<shift-locked>android_sym_keyboard_shift.png</shift-locked>
+   	<space>android_sym_keyboard_space.png</space>
+   	<mic>mic_white.png</mic>
+  </symbols>
+  <!-- Define text colors -->
+  <colors>
+    <!-- normal key label -->
+    <label>#FFFFFFFF</label>
+    <!-- alternative character label -->
+    <alt-label>#FFFFFFFF</alt-label>
+    <!-- modifier key label -->
+    <mod-label>#FFFFFFFF</mod-label>
+    <!-- shadow colors are optional, if you don't need them just remove the tags -->
+    <shadow>#FF000000</shadow>
+    <alt-shadow>#FF000000</alt-shadow>
+    <mod-shadow>#FF000000</mod-shadow>
+  </colors>
+  <!-- Define the suggestion bar. This part is optional -->
+  <candidates>
+    <!-- Define the background of the suggestion bar -->
+    <background>
+      <image>keyboard_suggest_strip.9.png</image>
+    </background>
+    <!-- Define the divider bar between candidates -->
+    <divider>keyboard_suggest_strip_divider.png</divider>
+    <!-- Define suggestion text color -->
+    <colors>
+      <!-- Color of the typed word -->
+      <normal>#FFFFFFFF</normal>
+      <!-- Color of the recommended word -->
+      <recommended>#FFFFFFFF</recommended>
+      <!-- Color of the other words -->
+      <other>#FFFFFFFF</other> -->
+    </colors>
+  </candidates>
+</skin>
