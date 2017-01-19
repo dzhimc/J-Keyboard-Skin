@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <skin version="1.0" name="J Keyboard">
+<!-- J Keyboard - dzhimc -->
+
   <!-- Define the keyboard background -->
   <background>
     <!-- Define a color gradient, but you can use an image instead, like this:
